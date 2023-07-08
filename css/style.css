@@ -96,7 +96,7 @@ img {
 .name {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     height: 150px;
     margin: 0;
     color: black;
@@ -122,6 +122,7 @@ img {
 }
 
 pre {
+    overflow: auto;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -163,3 +164,32 @@ pre {
 .footer__logo:hover {
     filter: drop-shadow(0px 0px 15px var(--hlColor));
 }
+@media (max-width: 980px){
+    .name__heading {
+        font-size: 28px;
+    }
+    .name__text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        font-size: 12px;
+    }
+    .header {
+        height: auto;
+    }
+    .header-list {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 580px) {
+    .main {
+        display: block;
+    }
+    .footer__logo {
+        width: 50px;
+    }
+  }
