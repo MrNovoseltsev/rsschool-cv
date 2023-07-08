@@ -3,8 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>RS School CV</title>
 </head>
 <body>
-</body>
-</html>
+    <div class="container">
+        <header class="header">
+            <nav class="header-menu">
+                <ul class="header-list">
+                    <li class="header-item"><a class="header__link" href="#contacts">CONTACTS</a></li>
+                    <li class="header-item"><a class="header__link" href="#about">ABOUT ME</a></li>
+                    <li class="header-item"><a class="header__link" href="#skills">SKILLS</a></li>
+                    <li class="header-item"><a class="header__link" href="#examples">EXAMPLES</a></li>
+                    <li class="header-item"><a class="header__link" href="#experience">EXPERIENCE</a></li>
+                    <li class="header-item"><a class="header__link" href="#education">EDUCATION</a></li>
+                    <li class="header-item"><a class="header__link" href="#english">ENGLISH</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="personal-info">
+                <ul class="personal-info__list">
+                    <li class="personal-info__item">
+                        <img class="profile-photo" src="./img/CV_photo.jpg" alt="my photo">
+                    </li>
+                    <li class="personal-info__item">
+                        <h2 class="personal-info__heading" id="contacts">Contacts</h2>
+                        <ul class="personal-list">
+                            <li class="personal-item">Discord:</li>
+                            <li class="personal-item">mrnovoseltsev</li>
+                        </ul>
+                        <ul class="personal-list">
+                            <li class="personal-item">Email:</li>
+                            <li class="personal-item">info@mail.com</li>
+                        </ul>
+                    </li>
+                    <li class="personal-info__item">
+                        <h2 class="personal-info__heading" id="education">Education</h2>
+                        <ul class="personal-list">
+                            <li class="personal-item">RS School:</li>
+                            <li class="personal-item">JS / FRONT-END. STAGE 0</li>
+                        </ul>
+                    </li>
+                    <li class="personal-info__item">
+                        <h2 class="personal-info__heading" id="english">English</h2>
+                        <ul class="personal-list">
+                            <li class="personal-item">English level:</li>
+                            <li class="personal-item">Upper-intermediate</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="skills-info">
+                <div class="name">
+                    <h1 class="name__heading">SERGEI NOVOSELTSEV</h1>
+                    <p class="name__text">FRONTEND DEVELOPER</p>
+                </div>
+                <ul class="skills-info__list">
+                    <li class="skills-info__item">
+                        <h2 class="skills__heading" id="about">About</h2>
+                        <p class="skills__text">I adore coding and frontend especially. I remember myself in 6-th grade when I met HTML first time. It was a friend of mine, he showed me how he compose html-pages on his computer and it seemed to me as magic. From that moment i tryied to compose html-pages too. But i didn't have a computer, so I glued it from paper and wrote code with a pen on paper blanks. It was hard but funny time. What a pleasure write code on a real computer nowdays.</p>
+                    </li>
+                    <li class="skills-info__item">
+                        <h2 class="skills__heading" id="experience">Experience</h2>
+                        <ul class="experience__list">
+                            <li class="experience__item">Web design: <a href="https://mrnovoseltsev.github.io/WD-1/">example 1</a></li>
+                            <li class="experience__item">Web design: <a href="https://mrnovoseltsev.github.io/WD-2/">example 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="skills-info__item">
+                        <h2 class="skills__heading" id="examples">Examples</h2>
+                        <p class="skills__text">Look at my marvelous code!</p>
+                        <pre><code>
+                            <span>function multiply(a, b) {</span>
+                            <span>    return a * b;</span>
+                            <span>}</span>
+                        </code></pre>
+                    </li>
+                    <li class="skills-info__item">
+                        <h2 class="skills__heading" id="skills">Skills</h2>
+                        <p class="skills__text"> I'm a professional in the following technologies:</p>
+                        <ul class="skills__list">
+                            <li class="skills__item">HTML 5.0</li>
+                            <li class="skills__item">CSS 3.0</li>
+                            <li class="skills__item">JS and TS</li>
+                            <li class="skills__item">VUE 3</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <ul class="footer-list">
+                <li class="footer-item"><a class="footer__link" href="https://github.com/MrNovoseltsev/rsschool-cv">Github link</a></li>
+                <li class="footer-item">2023</li>
+                <li class="footer-item"><a href="https://rs.school/js/"><img class="footer__logo" src="./img/rs_school_js.svg" alt="course logo"></a></li>
+            </ul>
+        </footer>
+    </div>
