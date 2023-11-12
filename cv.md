@@ -6,6 +6,7 @@ I have studied:
 * CSS, 
 * JS, 
 * Vue 3. 
+
 I have knowledge in TypeScript, React, jQuery. \
 You can find examples of my code in the repository: https://github.com/MrNovoseltsev/ \
 I have graduated from technical university. Also I have passed some online-courses at frontend \
